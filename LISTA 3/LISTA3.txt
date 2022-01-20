@@ -1,0 +1,59 @@
+Exercício 1 – Escreva um programa efetue a soma de números de 0 até n, onde n é
+um número digitado pelo usuário (dica: laço contado - for).
+
+Exercício 2 – Escreva um programa que calcule o maior de 10 números inteiros
+positivos inseridos pelo usuário (dica: laço contado - for). 
+
+Exercício 3 – . Escrever um programa que leia um número inteiro n e calcule a
+tabuada de n. Mostre a tabuada na forma:
+1 ∗ n = __
+2 ∗ n = __
+...
+n ∗ n = __
+
+Exercício 4 - Escrever um programa que lê 10 valores, um de cada vez, e conte
+quantos deles estão no intervalo [10,20] e quantos deles estão fora do intervalo,
+exibindo ao final a quantidade em cada grupo.
+
+Exercício 5 - Efetue um programa que some o peso de pessoas que tenham mais de
+30 anos. O programa deverá perguntar ao usuário a idade da pessoa, permitindo a
+digitação do peso apenas em caso positivo. Após cada a leitura, o usuário deverá
+digitar o caractere ’s’ para continuar entrando com o peso das pessoas pessoas ou o
+caractere ’n’ para sair.
+
+Exercício 6 - Escreva um programa que leia um número não determinado de valores e
+calcule a média aritmética dos valores lidos, a quantidade de valores positivos, a
+quantidade de valores negativos e o percentual de valores negativos e positivos.
+Mostre os resultados. O número que encerrará a leitura será zero. (dica: usar while ou
+do while)
+
+Exercício 7 - Faça um programa que leia uma quantidade não determinada de
+números inteiros positivos. Calcule a quantidade de números pares e ímpares, a média
+de valores pares e a média geral dos números lidos. O número que encerrará a leitura
+será zero.
+
+Exercício 8 - Faça um programa que receba salários de funcionários até que o valor
+-1 (menos um) seja inserido. Após o término, ou seja, quando o usuário digitar o
+número -1 exiba o maior salário.
+
+Exercício 9 - Faça um programa que calcule e exiba na tela os n primeiros termos da
+sequência de Fibonacci (dica: use for).
+
+Exercício 10 - Faça um programa que lê um valor N inteiro e positivo e que calcula e
+exiba na tela o fatorial de N, isto é N!. Utilize for para resolver este exercício!
+
+Exercício 11 – A prefeitura de uma cidade fez uma pesquisa entre seus habitantes,
+coletando dados sobre o salário e número de filhos. A prefeitura deseja saber:
+• média do salário da população;
+• média do número de filhos;
+• maior salário;
+• percentual de pessoas com salário até R$100,00;
+Faça um programa que permita ao usuário inserir os dados de salário e número de
+filhos da população. A leitura deverá ser feita enquanto o usuário quiser digitar mais
+dados (dica: usar do while com verificação de continuação a cada iteração).
+
+Exercício 12 - Diga que valores da variável de controle x são impressos por cada uma
+das seguintes instruções. Note que o incremento não é necessariamente de 1 a cada
+iteração. Implemente os laços e verifique as saídas.
+ 
+Exercício 13 – Explique as diferenças entre as instruções de repetições while e for

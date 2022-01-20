@@ -1,0 +1,38 @@
+Exercício 1 – Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene esses
+dados em uma estrutura. Em seguida, imprima na tela os dados da estrutura lida.
+
+Exercício 2 – Crie uma estrutura para representar as coordenadas de um ponto no plano (posições X e Y). Em
+seguida, declare e leia do teclado um ponto e exiba a distância dele até a origem das coordenadas, isto é, a
+posição (0,0).
+
+Exercício 3 – Crie uma estrutura chamada Retangulo. Essa estrutura deverá conter o ponto superior esquerdo e o
+ponto inferior direito do retângulo. Cada ponto é definido por uma estrutura Ponto, a qual contém as posições X e
+Y. Faça um programa que declare e leia uma estrutura Retangulo e exiba a área, o comprimento da diagonal e o
+perímetro desse retângulo.
+
+Exercício 4 – Usando a estrutura Retangulo do exercício anterior, faça um programa que declare e solicite ao
+usuário que digite os dados de uma estrutura Retangulo e um Ponto. E informe se esse ponto está ou não dentro
+do retângulo.
+
+Exercício 5 – Crie uma estrutura que representa os dados um atleta. Essa estrutura deve conter o nome do atleta,
+seu esporte, idade e altura. Agora, escreva um programa que leia os dados de n atletas e armazene em um vetor.
+Calcule e exiba os dados do atleta mais alto e do mais velho. O número de atletas deverá ser definido pelo usuário
+e alocação de memória deverá ser dinâmica.
+
+Exercício 6 – Criar um programa que permita ao usuário cadastrar quantos alunos o usuário desejar. Cada
+aluno deverá ter os seguintes dados: nome, curso, semestre, Endereço (rua, número, bairro, cidade) e data
+de nascimento (dia, mês, ano). O programa deverá ter duas estruturas (uma de aluno e outra de endereço).
+O programa deverá ter três funções além da main:
+void exibe_dados_aluno (Aluno);
+void exibe_alunos (Aluno alunos[], int qtd);
+void cadastra_alunos (Aluno alunos[], int qtd);
+A saída do programa deverá ser como abaixo:
+Por fim, o programa deverá exibir qual é o aluno que está a mais tempo na universidade. Ele deverá buscar o
+aluno que está no semestre com maior valor. Para isso deverá ser criada uma função conforme abaixo, que
+retorna os dados o aluno mais antigo:
+Aluno aluno_mais_antigo(Aluno alunos[], int qtd);
+
+Exercício 7 - Faça um programa que armazene as informações de 11 jogadores de um time de futebol. Cada
+jogador é identificado pelo número da sua camisa, pelo seu peso, altura e pelo seu nome. O programa deverá ler
+todas as informações e imprimir ao final a lista completa de jogadores com todas as informações lidas, a inicial do
+jogador mais baixo e o número do mais pesado. Utilize funções para ler e exibir os dados

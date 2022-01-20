@@ -1,0 +1,38 @@
+Exercício 1 – Crie uma função com cabeçalho int strichr (char str[],char c) que
+determina a posição no vetor da primeira ocorrência do caractere representado pela
+variável c na string representada por str. Deve ser retornada a posição de ocorrência
+ou -1 caso o caractere não ocorra na string. 
+
+Exercício 2 – Um palíndromo é uma palavra ou frase, que é igual quando lida da
+esquerda para a direita ou da direita para a esquerda. Escreva um programa que leia
+uma string de até 50 caracteres, e imprima “Palíndromo“, caso a string seja um
+palíndromo, e “Não Palíndromo“, caso contrário. Assuma que só são usados caracteres
+minúsculos e sem acentos. Exemplos de palíndromo: ana, mussum, rodador.
+
+Exercício 3 – Faça uma nova função palindromo que também reconheça como
+palíndromo frases que podem ser lidas igualmente da esquerda para a direita ou da
+direita para a esquerda, desconsiderando-se os espaços em branco. Por exemplo, as
+frases “a sacada da casa” e “socorram me subi no onibus em marrocos” também
+devem ser reconhecidas como palíndromos.
+
+Exercício 4 - Implementar uma função que crie uma cópia de um string sem utilizar o
+método strcpy.
+
+Exercício 5 - Criar uma função elimina_espacos que elimine os espaços em branco de
+uma cadeia de caracteres. A função deverá receber dois arrays de caracteres, sendo
+que o primeiro será o array de destino e o segundo o array de origem. Para o texto de
+entrada “Joaquim Silva Pereira”, deve-se salvar o seguinte texto no array de destino:
+“JoaquimSilvaPereira”.
+
+Exercício 6 - Faça um programa que solicite ao usuário que digite uma frase, calcule e
+mostre a quantidade de vogais da frase digitada. O programa deverá reconhecer
+vogais maiúsculas e minúsculas.
+
+Exercício 7 - Crie uma função com cabeçalho void strins (char str[], char c, int pos)
+que insira o caractere representado pela variável c na string representada por str na
+posição pos. Atenção, não será feita a substituição, e sim a inserção. Por exemplo,
+dada a string de entrada “Joanesburgo” e o caractere 'c' e o inteiro 4, a string deverá
+ser modificada para “Joancesburgo”.
+
+Exercício 8 - Linguagem do P. Crie um programa que leia uma frase inteira, insira o
+caractere P no lugar de cada vogal e imprima a frase resultante ao final

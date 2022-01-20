@@ -1,0 +1,73 @@
+Exercício 1 – Criar um algoritmo que leia o valor de uma hora (hora e minutos) e 
+informe quantos minutos se passaram desde o início do dia até àquela hora.
+
+Exercício 2 – Considerando os seguintes valores para as variáveis a = 1.5, b = 4, c = 
+2, d = 3, e = 1.2 e f = 4.3, faça um programa que determine e exiba os valores das 
+seguintes expressões:
+Dica: Lembre-de utilizar as funções aprendidas em sala de aula: sqrt e pow. Para utilizá-las é preciso incluir
+a biblioteca de funções matemáticas (<math.h>).
+
+
+Exercício 3 – Escrever um algoritmo em c para encontrar as soluções de uma equação
+de segundo grau (duas raízes). Se o delta é negativo não existem raízes reais. Se o
+delta é 0 existe apenas uma solução. Em cada um dos casos deve ser informado ao
+usuário se existe raiz (uma ou duas) ou se não existe e as raízes devem ser exibidas.
+Lembre-se de utilizar a fórmula de Bháskara abaixo.
+Obs: O usuário deverá digitar os dados de a,b e c. Por exemplo, na seguinte equação
+de segundo grau x² + 8x + 16 = 0 os valores de a, b e c são, respectivamente, 1,8 e
+16. 
+Equações de segundo grau para serem utilizadas como testes:
+x² – 2x – 3 = 0; duas raízes
+x² + 8x + 16 = 0. ; uma raiz
+10x² + 6x + 10 = 0; nenhuma raiz
+Dica: Lembre se utilizar as funções aprendidas em sala de aula: sqrt e pow. Para utilizá-las é preciso
+incluir a biblioteca de funções matemáticas (<math.h>).
+
+Exercício 4 – Crie um algoritmo que leia um número inteiro digitado pelo usuário. Em
+seguida deverá ser verificado se o número está entre 0 e 10, entre 10 e 100, entre 100
+e 1000, entre 1000 e 10000 ou que o número não se encaixa em nenhum dos grupos.
+Em qualquer um dos casos, deverá ser exibida uma mensagem informando a qual
+grupo o número pertence. 
+
+Exercício 5 – Faça um algoritmo para ler as medidas dos lados de um triângulo.
+Verificar e escrever se ele é EQUILÁTERO, ISÓSCELES OU ESCALENO. 
+
+Exercício 6 – Criar um algoritmo que calcule e apresente o valor do volume de uma
+lata de óleo, utilizando a fórmula: V = pr2h, onde r é o raio da base e h é altura da lata.
+O usuário deverá informar o raio da base e a altura da lata. Defina e use uma variável
+chamada PI correspondente ao valor aproximado de pi: 3.14159.
+
+Exercício 7 - Os funcionários de uma empresa receberam um aumento de salário: 
+técnicos (código = 1), 50%; gerentes (código = 2), 30%; demais funcionários (código = 
+3), 20%. Escrever um algoritmo para ler o código do cargo de um funcionário e o valor 
+do seu salário atual, calcular e imprimir o novo salário após o aumento.
+
+Exercício 8 - Para doar sangue é necessário que a pessoa tenha entre 18 e 67 anos e
+possua mais de 50Kg. Faça um programa que receba um caracter contendo a primeira
+letra do nome da pessoa, sua idade e seu peso e verifique se ela pode ou não doar
+sangue.
+
+Exercício 9 - Codifique um programa que leia um os valores de x, y (referentes a um
+par ordenado) e informe a qual quadrante de um plano cartesiano ele pertence. As
+opções de quadrante são (Primeiro, segundo, terceiro ou quarto quadrante). 
+
+Exercício 10 - Codifique um programa que, dados dois valores inteiros entre 1 e 10,
+calcule e imprima.
+• a média dos números, caso a soma deles seja menor que 8;
+• o produto entre os números, caso a soma deles seja igual a 8;
+• a divisão do maior número pelo menor, caso a soma deles seja maior que 8.
+
+Exercício 11 - Codifique um programa que leia um número de 1 a 12, indicativo um
+mês, e imprima o nome do mês correspondente, por extenso.
+
+Exercício 12 - Codifique um programa que pergunte um código de funcionário e, de
+acordo com o valor digitado, apresente o cargo correspondente, segundo a tabela
+abaixo. Caso seja digitado um código que não esteja na tabela, deve-se avisar que o
+código é inválido. Utilize switch para resolver este problema.
+
+Exercício 13 - Codifique um programa que leia a nota de um aluno e exiba o conceito
+correspondente, segundo as seguintes regras:
+• As notas entre 9 e 10 equivalem ao conceito A;
+• As notas entre 7 e 8.9 equivalem ao conceito B;
+• As notas entre 5 e 6.9 equivalem ao conceito C;
+• Notas abaixo de 5 equivalem ao conceito D

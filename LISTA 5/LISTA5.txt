@@ -1,0 +1,58 @@
+Exercício 1 - Escreva um programa que leia e mostre um vetor de 20 elementos
+inteiros. A seguir, conte quantos valores pares e ímpares existem no vetor.
+
+Exercício 2 – Faça um programa que leia um vetor de 20 inteiros positivos (permita
+apenas que valores corretos sejam digitados, pedindo para o usuário repetir cada
+número negativo até que ele digite um positivo) e imprima todos os valores abaixo da
+média desses valores.
+
+Exercício 3 - Escreva um programa que leia dois vetores de 10 posições e faça a
+multiplicação dos elementos de mesmo índice, colocando o resultado em um terceiro
+vetor. Mostre o vetor resultante.
+
+Exercício 4 - Faça um algoritmo que leia um vetor de 20 posições e que em seguida
+percorra o vetor e encontre o menor e o maior valor. Mostre-os juntamente com seus
+respectivos índices no vetor.
+
+Exercício 5 - Escreva um programa que leia um vetor de 20 posições e mostre-o na
+tela. Em seguida, troque o primeiro elemento com o último, o segundo com o
+penúltimo, o terceiro com o antepenúltimo, e assim sucessivamente. Mostre o novo
+vetor depois da troca.
+
+Exercício 6 – Escreva um programa que teste a passagem de parâmetro de vetores.
+Dentro da função main crie um vetor de de inteiros de tamanho qualquer. Solicite ao
+usuário que insira os dados para cada uma das posições e exiba os números na tela.
+Em seguida chame a função ‘void altera_vetor (int vet[])’ que receberá como
+parâmetro o vetor preenchido no main. A função deverá alterar alguns dos valores do
+vetor manualmente (ex: vet[0]=-1, vet[1]=10) e não deverá retornar nada. Após a
+chamada da função altera_vetor, no método main novamente, exiba novamente os
+valores em cada uma da posição do vetor e verifique se os valores estão diferentes.
+
+Exercício 7 - Codifique um programa que leia e armazene duas notas de 10 alunos e
+calcule e exiba as respectivas médias. O programa deve utilizar:
+1 - Um procedimento (função) que receba dois vetores de notas decimais e o
+tamanho dos vetores e peça ao usuário para digitar as notas, de forma a preencher os
+vetores.
+2 - Um segundo procedimento deve receber os dois vetores de notas decimais e
+um vetor de médias decimais, bem como o tamanho dos vetores, e calcular a média
+das notas, preenchendo o vetor de médias.
+3 - Um terceiro procedimento deve receber os vetores de notas e médias, além
+do
+tamanho dos mesmos, e imprimir as informações de cada aluno (utilizando 2
+casas decimais onde for preciso) no seguinte formato:
+Aluno 1
+nota 1 : 7 . 5 0
+nota 2 : 8 . 5 0
+media : 8 . 0 0
+
+Exercício 8 – Codifique um programa que leia e armazene a matrícula (um número
+inteiro) e o salário de 5 funcionários utilizando vetores. Os funcionários cuja matrícula
+for um número par devem receber um aumento de 15%; já os funcionários cuja
+matrícula for um número ímpar, devem receber um aumento de 20%. Utilize
+procedimentos para ler os salários, aplicar o reajuste salárial e imprimir as
+informações, no seguinte formato:
+Funcionario 1
+matricula : 2784
+salario base : R$ 7 8 6 0 . 5 0
+percentual de aumento : 15
+salario corrigido : R$ 9 0 3 9 . 57
